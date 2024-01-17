@@ -159,6 +159,7 @@ impl Painter {
                 width: surface_state.width,
                 height: surface_state.height,
                 present_mode,
+                desired_maximum_frame_latency: 2,
                 alpha_mode: surface_state.alpha_mode,
                 view_formats: vec![render_state.target_format],
             },
